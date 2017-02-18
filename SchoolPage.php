@@ -10,7 +10,7 @@
     <!-- Site specific stylesheet for overrides -->
     <link rel="stylesheet" href="resources/css/stylesheet.css">
 </head>
-<body>
+<body style="background-image: url(resources/images/noise4.png)">
 <!-- Bootstrap Default Nav -->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -82,12 +82,12 @@
     <div class="col-lg-5">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive img-rounded" src="resources/images/college.jpg">
+                <img class="img-responsive img-rounded" src="resources/images/college.jpg" style="box-shadow: 5px 5px 5px #888;">
             </div>
         </div>
     </div>
     <div class="col-lg-5">
-        <div class="well well-lg">
+        <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;">
           <div>
             <?php
             //Load in the excluded connection string
@@ -132,13 +132,15 @@
 <div class="row spaced">
   <div class="col-lg-1"></div>
   <div class="col-lg-10">
-    <div class="well well-lg">
+    <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;">
       <form action="resources/php/AddReview.php" method="post">
         <input type="hidden" value=1 name="CollegeID">
         <input type="hidden" value=1 name="UserID">
-        Your Name: <input type="text" name="txtAuthor" /><br />
+        Your Name: <input type="text" name="txtAuthor" class="form-control" /><br />
+        <div class="row">
+        <div class="col-lg-4">
         Category 1 Score:
-        <select name="ScoreOne">
+        <select name="ScoreOne" class="form-control">
           <option value=1>1</option>
           <option value=2>2</option>
           <option value=3>3</option>
@@ -150,8 +152,10 @@
           <option value=9>9</option>
           <option value=10>10</option>
         </select>
+        </div>
+        <div class="col-lg-4">
         Category 2 Score:
-        <select name="ScoreTwo">
+        <select name="ScoreTwo" class="form-control">
           <option value=1>1</option>
           <option value=2>2</option>
           <option value=3>3</option>
@@ -163,8 +167,10 @@
           <option value=9>9</option>
           <option value=10>10</option>
         </select>
+        </div>
+        <div class="col-lg-4">
         Category 3 Score:
-        <select name="ScoreThree">
+        <select name="ScoreThree" class="form-control">
           <option value=1>1</option>
           <option value=2>2</option>
           <option value=3>3</option>
@@ -175,9 +181,12 @@
           <option value=8>8</option>
           <option value=9>9</option>
           <option value=10>10</option>
-        </select> <br />
-        <textarea rows="9" cols="200" name="txtReview">Review Text Goes in Here</textarea><br />
-        <button type="submit">Submit</button>
+        </select>
+        </div>
+        </div>
+        <br />
+        <textarea rows="9" name="txtReview" class="form-control">Review Text Goes in Here</textarea><br />
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
   </div>
@@ -214,7 +223,7 @@
 
       // Each row is a review, every row gets its own well
       while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC) ) {
-        echo "<div class='well well-lg'>";
+        echo "<div class='well well-lg' style='box-shadow: 5px 5px 5px #888;'>";
         echo "Author: " . $row["Author"]. "<br>";
         echo "Main Review: " . $row["Main"]. "<br>";
         echo "Score One: " . $row["ScoreOne"]. "<br>";
