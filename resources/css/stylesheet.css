@@ -1,0 +1,72 @@
+input{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+#searchbox {
+   position: absolute;
+   top: 200px;
+   left: 25%;
+   width: 50%;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+}
+
+#searchbutton {
+   position: absolute;
+   top: 235px;
+   left: 37.5%;
+   width: 25%;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.imageContainer {
+      width:200px;
+      height:200px;
+      background-image: url(../resources/images/Cambridge.jpg);
+}
+
+.topImage {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.collegeImage {
+    width: 100%;
+}
+
+.spaced {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.html{
+    height: 100%
+}
+
+.body {
+  height: 100%
+}
+
+.navbar navbar-default {
+    margin-bottom: 0px;
+}
+.navbar-default {
+    margin-bottom: 0px;
+}
