@@ -22,24 +22,75 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="#">College Reviews</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li><a href="About.php">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="">About </a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Colleges <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Georgian College</a></li>
+            <li><a href="#">Loyalist College</a></li>
+            <li><a href="#">Fleming College</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">St. Lawrence College</a></li>
+            <li><a href="#">Algonquin College</a></li>
+            <li><a href="#">La Cité Collégiale</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#">Mohawk College</a></li>
+            <li><a href="#">Sheridan College</a></li>
+            <li><a href="#">Durham College</a></li>
+            <li><a href="#">Centennial College</a></li>
+            <li><a href="#">George Brown College</a></li>
+            <li><a href="#">Humber College</a></li>
+            <li><a href="#">Seneca College</a></li>
+            <li><a href="#">Niagara College</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Conestoga College</a></li>
+            <li><a href="#">Fanshawe College</a></li>
+            <li><a href="#">Lambton College</a></li>
+            <li><a href="#">St. Clair College</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Candore College</a></li>
+            <li><a href="#">Sault College</a></li>
+            <li><a href="#">Cambrian College</a></li>
+            <li><a href="#">Confederation College</a></li>
+            <li><a href="#">Collège Boréal</a></li>
+            <li><a href="#">Northern College</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Universities <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Algoma University</a></li>
+            <li><a href="#">Lakehead University</a></li>
+            <li><a href="#">Algoma University</a></li>
+            <li><a href="#">Laurentian University</a></li>
+            <li><a href="#">Nipissing University</a></li>
+            <li><a href="#">University of Hearst</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Brock University</a></li>
+            <li><a href="#">McMaster University</a></li>
+            <li><a href="#">OCAD University</a></li>
+            <li><a href="#">University of Guelph</a></li>
+            <li><a href="#">Univsersity of Ontario</a></li>
+            <li><a href="#">University of Toronto</a></li>
+            <li><a href="#">University of Waterloo</a></li>
+            <li><a href="#">Western University</a></li>
+            <li><a href="#">Wilfred Laurier University</a></li>
+            <li><a href="#">York University</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Carleton University</a></li>
+            <li><a href="#">Queen's University</a></li>
+            <li><a href="#">Royal Military College</a></li>
+            <li><a href="#">Trent University</a></li>
+            <li><a href="#">University of Ottawa</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">University of Windsor</a></li>
           </ul>
         </li>
       </ul>
@@ -50,17 +101,7 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
+        <li class="active"><a href="#">Login/Register</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -78,14 +119,20 @@
   <div class="col-lg-5">
     <div class="well well-lg">
       <form action="/collegereview/resources/php/Login.php" method="post">
-        Use this are to login to your user account and post reviews!<br><br>
+        Use this area to login to your user account and post reviews!<br><br>
         <div class="row">
-          <div class="col-lg-6"><div class="row"><div class="col-lg-6">Email Address: </div><div class="col-lg-6"><input type="textbox"></div></div></div>
-          <div class="col-lg-6"><div class="row"><div class="col-lg-6">Password: </div><div class="col-lg-6"><input type="textbox"></div></div></div>
+          <div class="col-lg-6"><label for="txtEmail">Email Address: </label></div><div class="col-lg-6"><input type="textbox" class="form-control" id="txtEmail"></div>
+          <div class="col-lg-6"><label for="txtPassword">Password: </label></div><div class="col-lg-6"><input type="textbox" class="form-control" id="txtPassword"></div>
         </div>
         <div class="row">
-          <br><div style="text-align:center"><button type="submit" class="centre">Login</button></div>
+          <br><div style="text-align:center"><button type="submit" class="centre btn btn-primary">Login</button></div>
         </div>
+        <br />
+        <p>
+          If you do not have a user account you will have to make on in order to post reviews on this site.  This helps prevent unwanted
+          spam, solicitation, and generally unwanted comments.  I promise to never ever email you unless you ask for an email, such as
+          in the case of a lost password.  Thanks!
+        </p>
       </form>
     </div>
   </div>
@@ -94,19 +141,19 @@
       <form action="/collegereview/resources/php/RegisterUser.php" method="post">
         Use this simple form to create a user account!<br><br>
         <div class="row">
-          <div class="col-lg-6"><div class="row"><div class="col-lg-6">First Name: </div><div class="col-lg-6"><input type="textbox" name="txtFirst"></div></div></div>
-          <div class="col-lg-6"><div class="row"><div class="col-lg-6">Last Name: </div><div class="col-lg-6"><input type="textbox" name="txtLast"></div></div></div>
+          <div class="col-lg-6"><label for="txtFirst">First Name: </label></div><div class="col-lg-6"><input type="textbox" name="txtFirst" class="form-control" id="txtFirst"></div>
+          <div class="col-lg-6"><label for="txtLast">Last Name: </label></div><div class="col-lg-6"><input type="textbox" name="txtLast" class="form-control" id="txtLast"></div>
         </div>
         <div class="row">
-          <div class="col-lg-6"><div class="row"><div class="col-lg-6">Username: </div><div class="col-lg-6"><input type="textbox" name="txtUsername"></div></div></div>
-          <div class="col-lg-6"><div class="row"><div class="col-lg-6">Email Address: </div><div class="col-lg-6"><input type="textbox" name="txtEmail"></div></div></div>
+          <div class="col-lg-6"><label for="txtUsername">Username: </label></div><div class="col-lg-6"><input type="textbox" name="txtUsername" class="form-control" id="txtUsername"></div>
+          <div class="col-lg-6"><label for="txtEmailR">Email Address: </label></div><div class="col-lg-6"><input type="textbox" name="txtEmail" class="form-control" id="txtEmailR"></div>
         </div>
         <div class="row">
-          <div class="col-lg-6"><div class="row"><div class="col-lg-6">Password: </div><div class="col-lg-6"><input type="textbox" name="txtPassword"></div></div></div>
-          <div class="col-lg-6"><div class="row"><div class="col-lg-6">Confirm Password: </div><div class="col-lg-6"><input type="textbox" name="txtConfirmPassword"></div></div></div>
+          <div class="col-lg-6"><label for="txtPasswordR">Password: </label></div><div class="col-lg-6"><input type="textbox" name="txtPassword" class="form-control" id="txtPasswordR"></div>
+          <div class="col-lg-6"><label for="txtConfirmPasswordR">Confirm Password: </label></div><div class="col-lg-6"><input type="textbox" name="txtConfirmPassword" class="form-control" id="txtConfirmPasswordR"></div>
         </div>
         <div class="row">
-          <br><div style="text-align:center"><button type="submit" class="centre">Register</button></div>
+          <br><div style="text-align:center"><button type="submit" class="centre btn btn-primary">Register</button></div>
         </div>
       </form>
     </div>

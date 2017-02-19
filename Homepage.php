@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="resources/css/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-<body>
+<body style="background-image: url(resources/images/noise4.png)">
 <!-- Bootstrap Default Nav -->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -30,29 +30,68 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="About.php">Home <span class="sr-only">(current)</span></a></li>
-        <<li><a href="">About </a></li>
+        <li><a href="">About </a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Colleges <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Georgian College</a></li>
+            <li><a href="#">Loyalist College</a></li>
+            <li><a href="#">Fleming College</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">St. Lawrence College</a></li>
+            <li><a href="#">Algonquin College</a></li>
+            <li><a href="#">La Cité Collégiale</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#">Mohawk College</a></li>
+            <li><a href="#">Sheridan College</a></li>
+            <li><a href="#">Durham College</a></li>
+            <li><a href="#">Centennial College</a></li>
+            <li><a href="#">George Brown College</a></li>
+            <li><a href="#">Humber College</a></li>
+            <li><a href="#">Seneca College</a></li>
+            <li><a href="#">Niagara College</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Conestoga College</a></li>
+            <li><a href="#">Fanshawe College</a></li>
+            <li><a href="#">Lambton College</a></li>
+            <li><a href="#">St. Clair College</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Candore College</a></li>
+            <li><a href="#">Sault College</a></li>
+            <li><a href="#">Cambrian College</a></li>
+            <li><a href="#">Confederation College</a></li>
+            <li><a href="#">Collège Boréal</a></li>
+            <li><a href="#">Northern College</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Universities <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Algoma University</a></li>
+            <li><a href="#">Lakehead University</a></li>
+            <li><a href="#">Algoma University</a></li>
+            <li><a href="#">Laurentian University</a></li>
+            <li><a href="#">Nipissing University</a></li>
+            <li><a href="#">University of Hearst</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">Brock University</a></li>
+            <li><a href="#">McMaster University</a></li>
+            <li><a href="#">OCAD University</a></li>
+            <li><a href="#">University of Guelph</a></li>
+            <li><a href="#">Univsersity of Ontario</a></li>
+            <li><a href="#">University of Toronto</a></li>
+            <li><a href="#">University of Waterloo</a></li>
+            <li><a href="#">Western University</a></li>
+            <li><a href="#">Wilfred Laurier University</a></li>
+            <li><a href="#">York University</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#">Carleton University</a></li>
+            <li><a href="#">Queen's University</a></li>
+            <li><a href="#">Royal Military College</a></li>
+            <li><a href="#">Trent University</a></li>
+            <li><a href="#">University of Ottawa</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">University of Windsor</a></li>
           </ul>
         </li>
       </ul>
@@ -63,17 +102,7 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
+        <li><a href="#">Login/Register</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -90,15 +119,15 @@
   <img src="resources\images\Hampshire.jpg" alt="" class="img-responsive" />
     <div class="search">
       <form>
-        <input id="searchbox" type="text"></input><br>
-        <button id="searchbutton" type="submit">Search</button>
+        <input id="searchbox" type="text" class="form-control"></input><br>
+        <button id="searchbutton" type="submit" class="btn btn-primary">Search</button>
       </form>
     </div>
 </div>
 
 <!-- Jumbotron Greeting -->
 <div class="container">
-  <div class="jumbotron">
+  <div class="jumbotron" style="box-shadow: 5px 5px 5px #888;">
     <h1>Welcome!</h1>
     <p>This is a site I made for fun.  It is designed (almost entirely in bootstrap wells!) and coded by myself, Connor Mackay.</p>
   </div>
@@ -112,10 +141,10 @@
 <div class="row">
   <div class="col-lg-2"></div>
   <div class="col-lg-4">
-    <div class="well well-lg">Look More Wells!</div>
+    <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;">Look More Wells!</div>
   </div>
   <div class="col-lg-4">
-    <div class="well well-lg">Look More Wells!</div>
+    <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;">Look More Wells!</div>
   </div>
   <div class="col-lg-2"></div>
 </div>
