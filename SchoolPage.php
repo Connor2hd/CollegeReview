@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Site specific stylesheet for overrides -->
     <link rel="stylesheet" href="resources/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body style="background-image: url(resources/images/noise4.png)">
 <!-- Bootstrap Default Nav -->
@@ -177,8 +178,8 @@
     <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;">
       <form action="resources/php/AddReview.php" method="post">
         <input type="hidden" value=1 name="CollegeID">
-        <input type="hidden" value=1 name="UserID">
         Your Name: <input type="text" name="txtAuthor" class="form-control" /><br />
+        Program of Study: <input type="text" name="txtProgram" class="form-control" /><br />
         <div class="row">
         <div class="col-lg-4">
         Category 1 Score:

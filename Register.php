@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Site specific stylesheet for overrides -->
     <link rel="stylesheet" href="resources/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-<body>
+<body style="background-image: url(resources/images/noise4.png)">
 <!-- Bootstrap Default Nav -->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -117,27 +118,21 @@
 <div class="row">
   <div class="col-lg-1"></div>
   <div class="col-lg-5">
-    <div class="well well-lg">
-      <form action="/collegereview/resources/php/Login.php" method="post">
-        Use this area to login to your user account and post reviews!<br><br>
-        <div class="row">
-          <div class="col-lg-6"><label for="txtEmail">Email Address: </label></div><div class="col-lg-6"><input type="textbox" class="form-control" id="txtEmail"></div>
-          <div class="col-lg-6"><label for="txtPassword">Password: </label></div><div class="col-lg-6"><input type="textbox" class="form-control" id="txtPassword"></div>
-        </div>
-        <div class="row">
-          <br><div style="text-align:center"><button type="submit" class="centre btn btn-primary">Login</button></div>
-        </div>
-        <br />
-        <p>
-          If you do not have a user account you will have to make on in order to post reviews on this site.  This helps prevent unwanted
-          spam, solicitation, and generally unwanted comments.  I promise to never ever email you unless you ask for an email, such as
-          in the case of a lost password.  Thanks!
-        </p>
-      </form>
+    <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;">
+      <h2>Registration Information</h2><br />
+      <p>
+        This website requires users to signup for an account before posting reviews on school pages.
+        We do this in an attempt to halt spammers and other unwanted content being posted on our site.
+      </p>
+      <p>
+        To sign up for an account you will need to provide an email where a confirmation message will be sent in order to verify your account.
+        Once your account has been activated we will never email you again unless you request it, in the instance of a missing password for example.
+        Thank you for understanding.
+      </p>
     </div>
   </div>
   <div class="col-lg-5">
-    <div class="well well-lg">
+    <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;">
       <form action="/collegereview/resources/php/RegisterUser.php" method="post">
         Use this simple form to create a user account!<br><br>
         <div class="row">
