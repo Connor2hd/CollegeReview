@@ -132,15 +132,19 @@
   <div class="jumbotron" style="box-shadow: 5px 5px 5px #888;">
     <h1>Welcome!</h1>
     <p>This is a site I made for fun.  It is designed (almost entirely in bootstrap wells!) and coded by myself, Connor Mackay.</p>
+    <p>Originally the site had user login and registration but since I want people to actually use the site I decided against incorporating it.
+      No one wants to sign up to a site, to more than likely just make one review.  I may add the login/register back to the site if I decide on aditional
+      functionality to add at a later time.</p>
+    <p>The site is a pretty simple concept, but one that I think is missing for Ontario schools.  Each school has a page.  Users can review the schools on
+      these pages.  Hopefully these reviews offer some sort of insight to how students feel about that school given school.  The system has its flaws and I am
+      always looking for ways to improve it.  Thanks.</p>
   </div>
-  <p>Here is where some information about the site will go.</p>
-  <p>Perhaps some more information about the site</p>
 </div>
 
 <br>
 
 <!-- Stat Boxes -->
-<div class="row">
+<!--div class="row">
   <div class="col-lg-2"></div>
   <div class="col-lg-4">
     <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;">Look More Wells!</div>
@@ -149,7 +153,7 @@
     <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;">Look More Wells!</div>
   </div>
   <div class="col-lg-2"></div>
-</div>
+</div-->
 
 <!-- Footer -->
 <div class="navbar navbar-default navbar-bottom">
