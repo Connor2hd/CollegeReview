@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Centennial College</title>
+<title>George Brown College</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap Refrences -->
@@ -126,7 +126,7 @@
         <div class="row">
             <div class="col-lg-12">
               <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;height:300px;">
-                <img class="img-responsive img-rounded" src="../resources/images/Centennial.jpg" style="height:100%;width:100%">
+                <img class="img-responsive img-rounded" src="../resources/images/GeorgeBrown.jpg" style="height:100%;width:100%">
               </div>
             </div>
         </div>
@@ -139,7 +139,7 @@
             require '../resources/php/Excluded.php';
 
             //The query to be executed to pull the static info for the college/university
-            $query = "SELECT * FROM College_Info WHERE CollegeID = 11";
+            $query = "SELECT * FROM College_Info WHERE CollegeID = 12";
 
             //Connect to the sql server
             $conn = sqlsrv_connect($serverName, $connectionInfo);
@@ -179,7 +179,7 @@
   <div class="col-lg-10">
     <div class="well well-lg" style="box-shadow: 5px 5px 5px #888;">
       <form action="../resources/php/AddReview.php" method="post">
-        <input type="hidden" value=11 name="CollegeID">
+        <input type="hidden" value=12 name="CollegeID">
         Your Name: <input type="text" name="txtAuthor" class="form-control" /><br />
         Program of Study: <input type="text" name="txtProgram" class="form-control" /><br />
         <div class="row">
@@ -247,7 +247,7 @@
       require '../resources/php/Excluded.php';
 
       //Assign the query that is being run to a variable
-      $query = "SELECT * FROM Reviews WHERE CollegeID = 11";
+      $query = "SELECT * FROM Reviews WHERE CollegeID = 12";
 
       //Connect to the server
       $conn = sqlsrv_connect($serverName, $connectionInfo);

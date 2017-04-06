@@ -29,39 +29,39 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="About.php">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="">About </a></li>
+        <li><a href="../Homepage.php">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="../About.php">About </a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Colleges <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Georgian College</a></li>
-            <li><a href="#">Loyalist College</a></li>
-            <li><a href="#">Fleming College</a></li>
+            <li><a href="College/Georgian.php">Georgian College</a></li>
+            <li><a href="College/Loyalist.php">Loyalist College</a></li>
+            <li><a href="College/Fleming.php">Fleming College</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">St. Lawrence College</a></li>
-            <li><a href="#">Algonquin College</a></li>
-            <li><a href="#">La Cité Collégiale</a></li>
+            <li><a href="College/StLawrence.php">St. Lawrence College</a></li>
+            <li><a href="College/Algonquin.php">Algonquin College</a></li>
+            <li><a href="College/LaCite.php">La Cité Collégiale</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Mohawk College</a></li>
-            <li><a href="#">Sheridan College</a></li>
-            <li><a href="#">Durham College</a></li>
-            <li><a href="#">Centennial College</a></li>
-            <li><a href="#">George Brown College</a></li>
-            <li><a href="#">Humber College</a></li>
-            <li><a href="#">Seneca College</a></li>
-            <li><a href="#">Niagara College</a></li>
+            <li><a href="College/Mohawk.php">Mohawk College</a></li>
+            <li><a href="College/Sheridan.php">Sheridan College</a></li>
+            <li><a href="College/Durham.php">Durham College</a></li>
+            <li><a href="College/Centennial.php">Centennial College</a></li>
+            <li><a href="College/GeorgeBrown.php">George Brown College</a></li>
+            <li><a href="College/Humber.php">Humber College</a></li>
+            <li><a href="College/Seneca.php">Seneca College</a></li>
+            <li><a href="College/Niagara.php">Niagara College</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Conestoga College</a></li>
-            <li><a href="#">Fanshawe College</a></li>
-            <li><a href="#">Lambton College</a></li>
-            <li><a href="#">St. Clair College</a></li>
+            <li><a href="College/Conestoga.php">Conestoga College</a></li>
+            <li><a href="College/Fanshawe.php">Fanshawe College</a></li>
+            <li><a href="College/Lambton.php">Lambton College</a></li>
+            <li><a href="College/StClair.php">St. Clair College</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Candore College</a></li>
-            <li><a href="#">Sault College</a></li>
-            <li><a href="#">Cambrian College</a></li>
-            <li><a href="#">Confederation College</a></li>
-            <li><a href="#">Collège Boréal</a></li>
-            <li><a href="#">Northern College</a></li>
+            <li><a href="College/Candore.php">Candore College</a></li>
+            <li><a href="College/Sault.php">Sault College</a></li>
+            <li><a href="College/Cambrian.php">Cambrian College</a></li>
+            <li><a href="College/Confederation.php">Confederation College</a></li>
+            <li><a href="College/Boreal.php">Collège Boréal</a></li>
+            <li><a href="College/Northern.php">Northern College</a></li>
           </ul>
         </li>
         <li class="dropdown">
